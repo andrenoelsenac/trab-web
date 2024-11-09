@@ -2,6 +2,8 @@
 Trabalho de Introdução ao Desenvolvimento Web e Modelagem de Banco de Dados
 
 ## Contextualização
+
+![Dona Marocas](imagens/dona-marocas.png)
 Dona Marocas é uma entusiasta das tecnologias modernas e, para compartilhar seu amor pelos chás, bolos e doces, decidiu digitalizar suas receitas. Ela deseja criar um sistema que permita cadastrar e exibir suas receitas de maneira simples, eficiente e bonita.
 
 ## Objetivo do Trabalho:
@@ -31,6 +33,14 @@ Desenvolver um sistema web para cadastrar e exibir receitas de Dona Marocas, int
 - Retorno dos dados das receitas para o front-end (exibição).
 - Validação dos dados recebidos (ex.: campos obrigatórios preenchidos).
 
+## Perguntas Frequentemente Perguntadas (FAQ)
+
+### Meu sistema vai ter que inserir dados em todas as tabelas?
+Não. Para esse trabalho se salvar e recuperar as receitas, está bom.
+
+### Você vai avaliar o SQL?
+Não. O SQL vai ser gerado pelo BRModelo, então ele vai servir apenas para a gente gerar o banco.
+
 ## Entrega:
 
 - Diagrama ER e esquema lógico no BRModelo.
@@ -43,5 +53,17 @@ Desenvolver um sistema web para cadastrar e exibir receitas de Dona Marocas, int
 - Funcionalidade e estética da interface do front-end.
 - Correto funcionamento do back-end e integração com o banco de dados.
 - Boas práticas de programação e documentação do código.
+
+## Como rodar o PHP
+
+- Instale o [XAMPP](https://www.apachefriends.org/pt_br/index.html) (se já não tiver instalado)
+- Execute o Apache (clique no botão "start" e espere o Apache ficar verdinho)
+
+![Tela do XAMPP](imagens/xampp.png)
+
+- Localize a pasta `c:\xampp\htdocs`
+- Crie dentro dela uma pasta sua (pode ser com seu nome)
+- Coloque os arquivos do projeto nessa pasta
+- Abra o navegador (qualquer um) e digite o endereço: `localhost/nome-da-pasta-que-voce-criou`
 
 Boa sorte na criação do sistema da Dona Marocas! 🍰 ☕
