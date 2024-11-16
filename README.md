@@ -22,7 +22,7 @@ Desenvolver um sistema web para cadastrar e exibir receitas de Dona Marocas, int
 2. Criar o esquema lógico do banco de dados no BRModelo.
 3. Gerar e exportar o script SQL para criar o banco de dados no MySQL ou MariaDB.
 
-<p style="color: red; font-weight: bold">Na hora de desenvolver o front e o back, pode usar uma tabela só no banco e salvar tudo em uma só</p>
+<div style="color: red; font-weight: bold">Na hora de desenvolver o front e o back, pode usar uma tabela só no banco e salvar tudo em uma só</div>
 
 ### Desenvolvimento Front-End
 1. Criar uma interface web com HTML, CSS e JavaScript que permita o cadastro de novas receitas e exibição das receitas cadastradas.
