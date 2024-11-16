@@ -22,7 +22,7 @@ Desenvolver um sistema web para cadastrar e exibir receitas de Dona Marocas, int
 2. Criar o esquema lógico do banco de dados no BRModelo.
 3. Gerar e exportar o script SQL para criar o banco de dados no MySQL ou MariaDB.
 
-`Na hora de desenvolver o front e o back, pode usar uma tabela só no banco e salvar tudo em uma só`
+### `Na hora de desenvolver o front e o back, pode usar uma tabela só no banco e salvar tudo em uma só`
 
 ### Desenvolvimento Front-End
 1. Criar uma interface web com HTML, CSS e JavaScript que permita o cadastro de novas receitas e exibição das receitas cadastradas.
@@ -69,3 +69,15 @@ Não. O SQL vai ser gerado pelo BRModelo, então ele vai servir apenas para a ge
 - Abra o navegador (qualquer um) e digite o endereço: `localhost/nome-da-pasta-que-voce-criou`
 
 Boa sorte na criação do sistema da Dona Marocas! 🍰 ☕
+
+## AJUDA 
+
+No [repositório git da disciplina](https://github.com/andre-noel/senac-web-2024), coloquei na pasta `PHP` o Show do Milhão alterado para funcionar com PHP e Banco de Dados. Podem usar como referência.
+
+- O arquivo `index.php` busca no banco uma pergunta aleatória para exibir;
+- Ao enviar o formulário, o arquivo `confere.php` recebe os valores do formulário;
+- O arquivo `confere.php` faz uma busca no banco de dados para conferir se a resposta está certa;
+- Tem exemplo de inserção no banco no arquivo `processa_json.php`, que usei para cadastrar as perguntas;
+- Usei a API de trivia para pegar 20 perguntas e salvei no arquivo `perguntas.json`;
+- A estrutura do banco que usei está no arquivo `pergunta.sql`;
+- Se quiserem replicar na máquina de vocês, podem importar o arquivo `pergunta.sql` no PHPMyAdmin, na aba **Importar**.
